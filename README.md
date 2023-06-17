@@ -21,9 +21,9 @@
 - Agrega filtros para buscar tareas por estado o título.
 - Implementa autenticación y autorización para proteger la API.
 
-# Resolucion del resafio
+# Resolucion del desafio
 
-Este proyecto implementa una API de tareas donde los usuarios pueden administrar y realizar un seguimiento de sus tareas. Permite crear, actualizar, eliminar y obtener tareas, así como también administrar los estados de las tareas.
+Este proyecto implementa una API de tareas donde los usuarios pueden administrar y realizar un seguimiento de sus tareas. Permite crear, actualizar, eliminar y obtener tareas.
 
 ## Características
 
@@ -45,7 +45,7 @@ Este proyecto implementa una API de tareas donde los usuarios pueden administrar
 
 1. Clona este repositorio en tu máquina local.
 2. Ejecuta el comando `npm install` para instalar las dependencias.
-3. Configura las credenciales de la base de datos en el archivo `config/db.js`. Se requieren los siguientes campos en .env
+3. Configura las credenciales de la base de datos en el archivo `config/db.js`. Se requieren los siguientes campos en `.env`
   - DB_NAME=app_tasks
   - DB_USERNAME=yourusername
   - DB_PASSWORD=yourpassword
@@ -59,22 +59,22 @@ Este proyecto implementa una API de tareas donde los usuarios pueden administrar
 - La API estará disponible en `http://localhost:3000`.
 - Puedes utilizar herramientas como Postman o cURL para realizar las siguientes operaciones:
 
-  USUARIOS:
-    - Crear un nuevo usuario: `POST http://localhost:3000/users/user`
-    - Actualizar un usuario existente: `PUT http://localhost:3000/users/user/{id}`
-    - Eliminar un usuario: `DELETE http://localhost:3000/users/user/{id}`
-    - Obtener todos los usuario: `GET http://localhost:3000/users/users`
-    - Obtener un usuario específico: `GET http://localhost:3000/users/user/{id}`
-  TAREAS:
-    - Crear una nueva tarea: `POST http://localhost:3000/tasks/task`
-    - Actualizar una tarea existente: `PUT http://localhost:3000/tasks/task/{id}`
-    - Eliminar una tarea: `DELETE http://localhost:3000/tasks/task/{id}`
-    - Obtener todas las tareas: `GET http://localhost:3000/tasks/tasks`
-    - Obtener una tarea específica: `GET http://localhost:3000/tasks/task/{id}`
-    - Obtener una tarea por estado: `GET http://localhost:3000/tasks/task/state/{stateId}`
-    - Obtener una tarea por usuario: `GET http://localhost:3000/tasks/task/user/{userId}`
-  ESTADOS:
-    - Obtener todos los estados: `GET http://localhost:3000/state/state`
+### USUARIOS:
+  - Crear un nuevo usuario: `POST http://localhost:3000/users/user`
+  - Actualizar un usuario existente: `PUT http://localhost:3000/users/user/{id}`
+  - Eliminar un usuario: `DELETE http://localhost:3000/users/user/{id}`
+  - Obtener todos los usuario: `GET http://localhost:3000/users/users`
+  - Obtener un usuario específico: `GET http://localhost:3000/users/user/{id}`
+### TAREAS:
+  - Crear una nueva tarea: `POST http://localhost:3000/tasks/task`
+  - Actualizar una tarea existente: `PUT http://localhost:3000/tasks/task/{id}`
+  - Eliminar una tarea: `DELETE http://localhost:3000/tasks/task/{id}`
+  - Obtener todas las tareas: `GET http://localhost:3000/tasks/tasks`
+  - Obtener una tarea específica: `GET http://localhost:3000/tasks/task/{id}`
+  - Obtener una tarea por estado: `GET http://localhost:3000/tasks/task/state/{stateId}`
+  - Obtener una tarea por usuario: `GET http://localhost:3000/tasks/task/user/{userId}`
+### ESTADOS:
+  - Obtener todos los estados: `GET http://localhost:3000/state/state`
 
 ## Contribución
 
@@ -93,4 +93,4 @@ Si estás interesado en desarrollar el frontend para esta API de tareas, puedes 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia ISC. Puedes consultar el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia ISC. Puedes consultar el archivo [LICENSE](https://es.wikipedia.org/wiki/Licencia_ISC) para más detalles.
